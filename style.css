@@ -90,8 +90,8 @@ a:hover {
     right: 0;
 }
 
-.texture-paper::before {
-    background: url("img/texture-paper.webp");
+.::before {
+    background: url("img/.webp");
     background-size: 280px 280px;
 }
 
@@ -196,6 +196,7 @@ a:hover {
 .d-bloc .panel,
 .l-bloc {
     color: rgba(0, 0, 0, .5);
+    font-size: 20px;
 }
 
 .d-bloc .panel button:hover,
@@ -651,7 +652,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: black !important;
 }
 
 .container {
@@ -677,7 +678,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 16px;
 }
 
 .tight-width-whitespace {
@@ -753,7 +754,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: rgba(83, 64, 12, 0.7);
     padding: 40px 40px 40px 40px;
 }
 
@@ -775,7 +776,7 @@ h4 {
 }
 
 .tc-white {
-    color: #faa37a!important;
+    color: #ff6600 !important;
     /*background: #332c29!important;*/
     border-radius: 10px;
 }
@@ -791,7 +792,7 @@ h4 {
 }
 
 .ltc-white {
-    color: #FFFFFF!important;
+    color: #EC751F !important;
 }
 
 .ltc-white:hover {
