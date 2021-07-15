@@ -84,10 +84,7 @@ a:hover {
     right: 0;
 }
 
-::before {
-    background: url("img/.webp");
-    background-size: 280px 280px;
-}
+
 
 .b-parallax {
     background-attachment: fixed;
