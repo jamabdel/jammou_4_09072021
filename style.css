@@ -639,12 +639,12 @@ a[data-lightbox]:hover img {
 }
 
 h1,
-h2,
+
 h3,
 h4,
 h5,
 h6,
-p,
+
 label,
 .btn,
 a {
@@ -652,6 +652,25 @@ a {
     font-weight: 600;
     color: black !important;
 }
+
+p{
+    font-family: "helvetica";
+    font-weight: 700;
+    color: rgb(32, 23, 59) !important;
+}
+
+h1{
+    font-family: "helvetica";
+    font-weight: 600;
+    color: rgb(8, 8, 8) !important;
+}
+h2{
+    font-family: "helvetica";
+    font-weight: 600;
+    color: rgb(121, 8, 8) !important;
+}
+
+
 
 .container {
     max-width: 1000px;
@@ -676,7 +695,7 @@ a {
 }
 
 p {
-    font-size: 16px;
+    font-size: 17px;
 }
 
 .tight-width-whitespace {
@@ -749,6 +768,23 @@ h4 {
 .white {
     color: #FFFFFF !important;
 }
+.cite {
+    
+    font-size: 16px;
+    font-style: italic;
+   
+}
+.citea {
+    font-size: 14x;
+    font-weight: bold;
+
+}
+.titelfooter{
+    color: black;
+    padding: 20px;
+    font-weight: 700;
+    font-size: 20px;
+}
 
 .portfolio-thumb {
     margin-bottom: 24px;
@@ -764,13 +800,14 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(83, 64, 12, 0.7);
+    background-color: #5c5737;
     padding: 40px 40px 40px 40px;
 }
 
 .bold-link {
+    font-size: larger;
     font-weight: 900;
-    text-decoration: underline !important;
+  
 }
 
 .bgc-white {
