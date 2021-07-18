@@ -656,7 +656,7 @@ a {
 p{
     font-family: "helvetica";
     font-weight: 700;
-    color: rgb(32, 23, 59) !important;
+    color: black !important;
 }
 
 h1{
@@ -667,7 +667,7 @@ h1{
 h2{
     font-family: "helvetica";
     font-weight: 600;
-    color: rgb(121, 8, 8) !important;
+    color: rgb(0, 0, 0) !important;
 }
 
 
@@ -737,6 +737,7 @@ p {
 h2 {
     font-size: 22px;
     line-height: 1.4em;
+    
 }
 
 h3 {
@@ -768,10 +769,23 @@ h4 {
 .white {
     color: #FFFFFF !important;
 }
-.cite {
-    
-    font-size: 16px;
+
+.explain {
+    font-size: 22px;
+    margin: auto;
+    width: 65%;
+    color: #000000;
+  }
+
+
+.cite {  
+    display: block;
+    margin: auto;
+    quotes: none;
+    font-size: 20px;
     font-style: italic;
+    width: 65%;
+    color: #000000; 
    
 }
 .citea {
